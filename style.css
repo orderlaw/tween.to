@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+body {
+    background: black;
+}
+
+button {
+	width: 8pc;
+	height: 3pc;
+	color: black;
+	background: #bdbdbd;
+	outline: none;
+	cursor: pointer;
+	border-radius: 4px;
+	border: none;
+	margin: 20px;
+}
+
+.container {
+    height: 100vh;
+}
+
+.circle {
+    width: 6pc;
+    height: 6pc;
+    position: fixed;
+    top: 8pc;
+    left: 4pc;
+    border-radius: 50%;
+    border: none;
+    background-color: green;
+}
